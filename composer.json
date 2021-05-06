@@ -1,0 +1,22 @@
+{ 
+    "name": "the-platform-group/helper",
+    "type": "project",
+    "description": "helper",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Laszlo Palvölgyi",
+            "email": "l.palvoelgyi@the-platform-group.com",
+            "homepage": "https://www.the-platform-group.com",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "TpgHelper\\": "src/"
+      }
+    }
+}
