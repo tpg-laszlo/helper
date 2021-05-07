@@ -12,8 +12,11 @@
             "role": "Developer"
         }
     ],
-
-    "require": {},
+    "require": {
+      "php": "^7.0|^8.0",
+      "composer/package-versions-deprecated": "^1.8.0",
+      "mongodb/mongodb": "^1.8"
+    },
     "autoload": {
       "psr-4": {
         "TpgHelper\\": "src/"
